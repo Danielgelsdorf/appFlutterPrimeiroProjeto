@@ -19,7 +19,7 @@
       "userId": 1, 
       "title": "Aventura no Espaço Sideral",
       "description": "Uma coleção de artes conceituais, fotos de telescópios e ilustrações sobre viagens intergalácticas. Detalhes com galeria de imagens.",
-      "imageUrls": [ // <=== AGORA É UMA LISTA!
+      "imageUrls": [
         "https://picsum.photos/id/10/800/600",
         "https://picsum.photos/id/11/800/600",
         "https://picsum.photos/id/12/800/600"
@@ -34,7 +34,6 @@
         "https://picsum.photos/id/20/800/600",
         "https://picsum.photos/id/21/800/600"
       ]
-    },
-    // ... adicione mais álbuns conforme necessário
+    }
   ]
 }
