@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Maria Silva",
+      "username": "mariasilva_dev",
+      "email": "maria.s@exemplo.com"
+    },
+    {
+      "id": 2,
+      "name": "João Pereira",
+      "username": "joao_pereira_design",
+      "email": "joao.p@exemplo.com"
+    }
+  ],
+  "albums_com_detalhes": [
+    {
+      "id": 1,
+      "userId": 1, 
+      "title": "Aventura no Espaço Sideral",
+      "description": "Uma coleção de artes conceituais, fotos de telescópios e ilustrações sobre viagens intergalácticas. Detalhes com galeria de imagens.",
+      "imageUrls": [ // <=== AGORA É UMA LISTA!
+        "https://picsum.photos/id/10/800/600",
+        "https://picsum.photos/id/11/800/600",
+        "https://picsum.photos/id/12/800/600"
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2, 
+      "title": "Arquitetura Urbana",
+      "description": "Fotos da metrópole e suas estruturas modernas. Coleção focada em linhas, sombras e geometria.",
+      "imageUrls": [
+        "https://picsum.photos/id/20/800/600",
+        "https://picsum.photos/id/21/800/600"
+      ]
+    },
+    // ... adicione mais álbuns conforme necessário
+  ]
+}
