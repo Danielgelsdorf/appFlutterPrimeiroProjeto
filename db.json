@@ -1,39 +1,48 @@
 {
-  "users": [
+  "characters": [
     {
-      "id": 1,
-      "name": "Maria Silva",
-      "username": "mariasilva_dev",
-      "email": "maria.s@exemplo.com"
+      "id": 1011334,
+      "name": "3-D Man",
+      "description": "Um herói com força, velocidade e durabilidade três vezes superiores às de um atleta perfeito.",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg"
     },
     {
-      "id": 2,
-      "name": "João Pereira",
-      "username": "joao_pereira_design",
-      "email": "joao.p@exemplo.com"
+      "id": 1017100,
+      "name": "A-Bomb (HAS)",
+      "description": "Rick Jones foi transformado no A-Bomb após um acidente com radiação gama.",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16.jpg"
+    },
+    {
+      "id": 1009144,
+      "name": "A.I.M.",
+      "description": "Advanced Idea Mechanics, uma organização de cientistas brilhantes e vilões.",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec.jpg"
     }
   ],
-  "albums_com_detalhes": [
+  "comics": [
     {
-      "id": 1,
-      "userId": 1, 
-      "title": "Aventura no Espaço Sideral",
-      "description": "Uma coleção de artes conceituais, fotos de telescópios e ilustrações sobre viagens intergalácticas. Detalhes com galeria de imagens.",
-      "imageUrls": [
-        "https://picsum.photos/id/10/800/600",
-        "https://picsum.photos/id/11/800/600",
-        "https://picsum.photos/id/12/800/600"
-      ]
+      "id": 21366,
+      "characterId": 1011334,
+      "title": "Avengers: The Initiative (2007) #14",
+      "description": "A Invasão Secreta começa aqui! Quem é Skrull e quem é humano?",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/c/60/4bb796e6d1c85.jpg",
+      "dates": "Publicado em: 25/06/2008"
     },
     {
-      "id": 2,
-      "userId": 2, 
-      "title": "Arquitetura Urbana",
-      "description": "Fotos da metrópole e suas estruturas modernas. Coleção focada em linhas, sombras e geometria.",
-      "imageUrls": [
-        "https://picsum.photos/id/20/800/600",
-        "https://picsum.photos/id/21/800/600"
-      ]
+      "id": 21546,
+      "characterId": 1011334,
+      "title": "Avengers: The Initiative (2007) #15",
+      "description": "A batalha continua e o 3-D Man está no centro da ação.",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/6/50/4c36d0f886f34.jpg",
+      "dates": "Publicado em: 20/07/2008"
+    },
+    {
+      "id": 40632,
+      "characterId": 1017100,
+      "title": "Hulk (2008) #53",
+      "description": "Mayhem no deserto enquanto A-Bomb enfrenta o Hulk Vermelho!",
+      "thumbnailUrl": "https://i.annihil.us/u/prod/marvel/i/mg/2/00/4e6628096e233.jpg",
+      "dates": "Publicado em: 06/06/2012"
     }
   ]
 }
