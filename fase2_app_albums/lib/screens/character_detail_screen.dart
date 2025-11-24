@@ -27,7 +27,16 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       // 1. AppBar (Título Dinâmico)
-      appBar: AppBar(title: Text(widget.character.name)),
+      appBar: AppBar (
+        title: Text(widget.character.name),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          tooltip: 'Voltar', // Isso muda o texto para leitores de tela e mouse
+          onPressed: () {
+            Navigator.pop(context); // Ação de voltar
+          },
+        ),
+      ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [

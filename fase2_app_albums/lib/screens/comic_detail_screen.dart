@@ -10,8 +10,16 @@ class ComicDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // 1. AppBar
-      appBar: AppBar(title: const Text("Informações do Quadrinho")),
-      
+      appBar: AppBar(
+        title: const Text("Informações do Quadrinho"),
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back),
+          tooltip: 'Voltar', // Isso muda o texto para leitores de tela e mouse
+          onPressed: () {
+            Navigator.pop(context); // Ação de voltar
+          },
+        ),
+      ),
       // 2. SingleChildScrollView para conteúdo longo
       body: SingleChildScrollView(
         child: Column(
